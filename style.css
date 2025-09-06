@@ -1,4 +1,4 @@
-/* General Reset & Body Styling */
+
 body {
     font-family: 'IBM Plex Sans', Arial, sans-serif;
     margin: 0;
@@ -28,7 +28,7 @@ ul {
     margin: 0;
 }
 
-/* --- HEADER STYLES --- */
+
 .site-header {
     background-color: #ffffff;
     border-bottom: 1px solid #e0e0e0;
@@ -259,9 +259,7 @@ ul {
     text-decoration: none;
 }
 
-/* --- END HEADER STYLES --- */
 
-/* Main Content Layout */
 .page-content-wrapper {
     display: flex;
     justify-content: center;
@@ -272,7 +270,7 @@ ul {
     position: relative;
 }
 
-/* Fixed Social Share Bar */
+
 .social-share-fixed {
     position: fixed;
     left: max(calc(50% - 600px - 50px), 1rem);
@@ -310,7 +308,7 @@ ul {
     height: auto;
 }
 
-/* Article Main Content */
+
 .article-main-content {
     flex: 3;
     background-color: #ffffff;
@@ -400,7 +398,7 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
-/* Sidebar Styling */
+
 .article-sidebar {
     flex: 1;
     display: flex;
@@ -440,13 +438,13 @@ h1 {
     color: #525252;
     line-height: 1.6;
 }
-/* Responsive video container for YouTube/Vimeo embeds */
+
 .video-responsive {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio (height / width = 9 / 16 = 0.5625) */
+    padding-bottom: 56.25%; 
     height: 0;
     overflow: hidden;
-    border-radius: 0.5rem; /* Apply border-radius to the container */
+    border-radius: 0.5rem; 
 }
 
 .video-responsive iframe {
@@ -455,10 +453,10 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    border: 0; /* Remove default iframe border */
+    border: 0; 
 }
 
-/* Table of Contents specific styling */
+
 .sidebar-toc {
     position: relative;
     position: sticky;
@@ -490,14 +488,14 @@ h1 {
     text-decoration: underline;
 }
 
-/* Active TOC link styling (JavaScript will add this class) */
+
 .sidebar-toc ul li a.active {
     color: #161616;
     font-weight: 600;
     text-decoration: none;
 }
 
-/* Scroll Indicator Styling */
+
 .toc-scroll-indicator {
     position: absolute;
     top: 55px;
@@ -529,7 +527,7 @@ h1 {
     height: 20px;
 }
 
-/* Basic Responsiveness - adjust as needed */
+
 @media (max-width: 1024px) {
     .page-content-wrapper {
         flex-direction: column;
@@ -554,7 +552,7 @@ h1 {
         padding: 2rem;
     }
 
-    /* Hide the secondary nav on smaller screens */
+    
     .secondary-nav {
         display: none;
     }
@@ -571,7 +569,7 @@ h1 {
         display: none;
     }
 
-    /* Adjust TOC sticky top position for single row header */
+   
     .sidebar-toc {
         top: 70px;
     }
@@ -592,7 +590,7 @@ h1 {
     }
 }
 
-/* FOOTER STYLES */
+
 .site-footer {
     background-color: #f4f4f4;
     border-top: 1px solid #e0e0e0;
